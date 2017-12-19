@@ -31,7 +31,6 @@ public class Problema_364 {
                 }
             }
             
-            
             listado.add(linea2);
             linea=sc.nextLine();
         }
@@ -39,7 +38,5 @@ public class Problema_364 {
         for (int i = 0; i < listado.size(); i++) {
             System.out.println(listado.get(i));
         }
-        
-        
     }
 }
