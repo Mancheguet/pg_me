@@ -16,8 +16,8 @@ public class Ejercicio1 {
         numEntradas = sc.nextInt();
         
         for (int i = 0; i < numEntradas; i++) {
-            entrada1 = sc.next();
-            entrada2 = sc.next();
+            entrada1 = sc.nextLine();
+            entrada2 = sc.nextLine();
             if(entrada1.equals("C-3PO") && entrada2.equals("creador")){
                 listado.add(entrada1+", yo soy tu "+entrada2);
             } else if(entrada1.equals("Luke") && entrada2.equals("padre")){
